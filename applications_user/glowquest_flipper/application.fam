@@ -1,0 +1,10 @@
+App(
+    appid="glowquest_flipper",
+    name="GlowQuest Flipper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="glowquest_flipper_app",
+    stack_size=2048,
+    fap_category="Bluetooth",
+    fap_description="Offline MagicBand+ BLE effects research",
+    fap_author="GlowQuest community",
+)
